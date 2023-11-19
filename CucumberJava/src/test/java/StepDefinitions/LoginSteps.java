@@ -25,4 +25,5 @@ public class LoginSteps {
 	public void user_is_navigated_to_the_home_page() {
 		System.out.println("user is navigated to the home page");
 	}
+	
 }
