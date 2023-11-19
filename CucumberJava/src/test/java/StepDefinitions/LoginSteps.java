@@ -8,7 +8,7 @@ public class LoginSteps {
 	
 	@Given("user is on login page")
 	public void verifyLoginPage(){
-		System.out.println("Login page");
+		System.out.println("Login page*********************************//*************");
 	}
 
 	@When("user enteres username and password")

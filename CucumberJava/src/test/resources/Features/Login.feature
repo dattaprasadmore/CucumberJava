@@ -1,5 +1,4 @@
 #Auther
-
 Feature: Feature to test login functionality
 
   Scenario: Check login is successful with valid credentials
