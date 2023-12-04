@@ -1,0 +1,12 @@
+Configuration Done
+Now what 
+We need certain pre-conditions there that who will enter the URL? Who will Launch the browser?
+ - In that case we have to create one Hook file here - Application Hooks we have to create - AppHooks package -
+ Inside it create ApplicationHooks class, It is same like as Base test class in TestNG - Pre-Annotations & Post-Annotations
+ Pre-Condition is that Launch the browser - It is Hooks responsibility - Check ApplicationHooks class for more details
+ - Next we have to write / Create Pages & have to call those pages in Step def classes.
+ - Inside the Login Page we have to maintain 3 Locators
+   1) By Locators - We will use Encapsulation Concept here, Locators will be Private & Actions will be public
+   2) One Constructor
+   3) We have to create Page Actions - Actions will be public
+  VIP Each class will have private WebDriver reference. 
